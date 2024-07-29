@@ -1,0 +1,143 @@
+#page-top{
+    margin-top: 22px;
+  }
+  body {
+    font-family: 'Nunito', sans-serif;
+    color: #5a5c69;
+    background-color: #f8f9fc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Sidebar Styles */
+  #accordionSidebar {
+    background-color: #4e73df; /* Sidebar background color */
+    color: #fff;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    overflow-y: auto;
+  }
+  
+  #accordionSidebar .nav-item .nav-link {
+    color: #fff;
+  }
+  
+  #accordionSidebar .nav-item .nav-link:hover {
+    color: #d1d3e2;
+    background-color: #2e59d9; /* Sidebar link hover color */
+  }
+  
+  #accordionSidebar .sidebar-brand {
+    padding: 0.5rem; /* Reduced padding for the sidebar brand */
+  }
+  
+  #accordionSidebar .sidebar-brand img {
+    max-width: 100%;
+  }
+  
+  /* Content Styles */
+  #content-wrapper {
+    margin-left: 16rem; /* Sidebar width */
+    padding: 1rem; /* Reduced padding */
+    min-height: 100vh;
+  }
+  
+  #content {
+    padding: 0.5rem; /* Reduced padding */
+  }
+  
+  /* Topbar Styles */
+  .topbar {
+    background-color: #fff; /* Topbar background color */
+    border-bottom: 1px solid #e3e6f0;
+  }
+  
+  .topbar .navbar-nav .nav-link {
+    color: #5a5c69;
+  }
+  
+  .topbar .navbar-nav .nav-link:hover {
+    color: #1d72b8;
+  }
+  
+  .topbar .navbar-nav .dropdown-menu {
+    background-color: #fff;
+  }
+  
+  /* Card Styles */
+  .card {
+    border: 2px solid #510202;
+    border-radius: 0.35rem;
+    padding: 0%;
+    margin: 0%;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+  }
+  
+  .card-header {
+    background-color: transparent; /* Removed primary color from card header */
+    color: #5a5c69; /* Adjusted header text color */
+  }
+  
+  .card-header .font-weight-bold {
+    color: #5a5c69; /* Adjusted font weight color */
+  }
+  
+  .card-body {
+      /* Padding inside the card body */
+      margin-top: 10px;
+     
+  }
+  
+  /* Table Styles */
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #010412;
+    border: 10px solid black;
+  }
+  
+  
+  .table thead th {
+    background-color: #f8f9fc;
+    border: 2px solid black; /* Table header background color */
+  }
+  .table-bordered td{
+    border: 2px solid black;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f1f1f1; /* Hover color for table rows */
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #fff; /* Footer background color */
+    border-top: 1px solid #e3e6f0;
+    padding: 0.5rem; /* Reduced padding for footer */
+  }
+  
+  footer .copyright {
+    color: #5a5c69;
+  }
+  
+  /* Modal Styles */
+  .modal-content {
+    border-radius: 0.35rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+  }
+  
+  .modal-header {
+    border-bottom: 1px solid #e3e6f0;
+  }
+  
+  .modal-footer {
+    border-top: 1px solid #e3e6f0;
+  }
+    div.card-header.py-3{
+     
+  
+  }
+  
